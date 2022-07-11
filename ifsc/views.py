@@ -3,7 +3,7 @@ from django.shortcuts import render
 import json
 
 
-f = open('ifsc/IFSC(1).json', encoding="mbcs")
+f = open('ifsc/IFSC(1).json', encoding="utf-8")
 data = json.load(f)
 a = {}
 
